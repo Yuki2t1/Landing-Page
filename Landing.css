@@ -2,12 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-#top-blue{
-    background-color: #1F2937;
-    height: 500px;
-    
 
-}
 #upper-mid{
     background-color: #FFFFFF;
     height: 500px;
@@ -29,27 +24,40 @@ footer{
     height: 100px;
 }
 
-#nav{
-    font-weight: 100;
-    padding-top:40px ;
-    font-family: roboto;
-    display: flex;
-    margin-left:50%;
-    flex-shrink: 5;
-    color: #F8F8F8;
-    cursor: pointer;
-    justify-content: space-evenly;
+#header_contianer{
+    background-color: #1F2937;
+    height: 500px;
 }
-#header-logo{
+#header_element_container{
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 15em;   
+}
+#nav_container{
+    font-weight: 100;
+    width: 600px;
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: inline;
+    font-family: roboto;
+    font-weight:lighter;
+    color: #F8F8F8;
     cursor: pointer;
-    margin-top: 30px;
-    margin-left: 15%;
+    margin-left: 15px;
+}
+#logo_container{
+    cursor: pointer;
     font-family: roboto;
     color: #F8F8F8;
-    position:absolute;
-    font-weight: bolder;
+    font-size: 26px;
     padding-top: 0px;
 }
+
 #awsome-website{
     display: inline-block;
     margin-top: 74px;
