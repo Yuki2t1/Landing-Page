@@ -10,6 +10,9 @@
 }
 
 #lower-mid{
+    display: flex;
+    justify-content: center;
+    margin-top: 18em;
     background-color: #E5E7EB;
     height: 500px;
 }
@@ -24,23 +27,58 @@ footer{
     height: 100px;
 }
 
-#header_contianer{
-    background-color: #1F2937;
-    height: 500px;
-}
-#header_element_container{
-    display: flex;
-    padding-top: 5px;
-    justify-content: center;
-    justify-content: space-around;
-    margin-left: 15em;   
-}
-#nav_container{
-    font-weight: 100;
-    width: 600px;
-    margin-left: 350px;
+#info_container{
+
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    
+}
+#info_title_container{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+    width: 550px;
+}
+#img_container{
+    color:#FFFFFF;
+    font-family:roboto ;
+    text-align: center;
+    width: 500px;
+
+    margin-left:6em;
+    height: 270px;
+    background-color: #6D747D;
+}
+#header_contianer{
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#header_element_container{
+    margin-left: 15em;
+    padding-top: 5px;
+    
+       
+}
+#nav_container{
+    margin-top: -1em;
+    font-weight: 100;
+    gap:0.5em;
+    width: 600px;
+    margin-left: 560px;
+    display: flex;
+    align-items: center;
+}
+#sec{
+    margin-top: -5em;
+    background-color: #1F2937;
+    height: 500px;
 }
 .nav{
     display: inline;
@@ -55,13 +93,13 @@ footer{
     font-family: roboto;
     color: #F8F8F8;
     font-size: 26px;
-    padding-top: 0px;
+    display: inline;
 }
 
 #awsome-website{
     display: inline-block;
     margin-top: 74px;
-    margin-left: 20%;
+    margin-left: -20%;
     font-family: roboto;
     color: #F8F8F8;
     font-weight: 900;
@@ -72,12 +110,12 @@ footer{
     font-family: roboto;
     font-weight: 100;
     font-size: 18px;
-    margin-left: 20%;
+    
     color: #C6C9CE;
 }
 #sign-up{
     margin-top: 6px;
-    margin-left:20%;
+    margin-left:-17em;
     border-radius: 8px;
     width: 140px;
     height: 40px;
@@ -90,20 +128,7 @@ footer{
     background-color:#3B82F6;
     cursor: pointer;
 }
-#place-holder-image{
-    color:#FFFFFF;
-    font-family:roboto ;
-    text-align: center;
-    margin-top: -200px;
-    width: 600px;
-    position: absolute;
-    display: inline-block;
-    margin-left: 25%;
-    
-    height: 270px;
-    background-color: #6D747D;
 
-}
 #place-holder-text{
     padding-top: 20%;
     padding-left: 5px;

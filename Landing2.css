@@ -1,4 +1,5 @@
 #title{
+    
     font-size: 36px;
     font-weight: 900;
     text-align: center;
@@ -6,53 +7,58 @@
     color: #1F2937;
     font-family: roboto;
 }
-
-.boxes{
-    display: flex;
-    align-items: center;
-    display: inline-block;
+#header_contianer{
+    position: sticky;
+    top: 0px;
+}
+.box_style{
     margin-top: 50px;
     height: 130px;
-    margin-left: 50px;
     background:none;
     width: 130px;
     border: #3B82F6 solid 4px;
     border-radius: 8px;
 }
-
+.box_style>p{
+    font-family:roboto ;
+    position: absolute;
+    font-size:small;
+    color: #656D79;
+    text-wrap:initial;    
+}
+#box_container{
+    
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 
 #boxes{
     position: absolute;
     margin-left: 27%;
 }
-.boxes>p{
-    font-family:roboto ;
-    position: absolute;
-    font-size:small;
-    color: #656D79;
-    text-wrap:initial;
-    margin-top: 150px;
-    margin-left: 25px;
-}
+
 #title{padding-top: 50px;}
 
+#speech_container{
+    width: 50em;
+}
 
-#lower-mid>h1{
+#Quote{
+    margin-top: 20px;
+    text-align: right;
+    font-weight: 400;
+    font-family: roboto;
+    color: #1f2936;  
+}
+#speech_container>h1{
     margin-top:180px ;
     font-weight: 400;
-    display: inline-block;
-    margin-left: 550PX;
+    text-align: center;
     font-family: roboto;
     color: #1f2936;    
 }
-#lower-mid>h2{
-    margin-top:10px ;
-    font-weight: 400;
-    display: inline-block;
-    margin-left: 1040PX;
-    font-family: roboto;
-    color: #1f2936;    
-}
+
 
 #alert1{
     margin-left: 350px;
@@ -89,10 +95,90 @@
     width: 140px;
     height: 40px;
 }
+#sigma_finale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+#finish_container{
+    
+    background-color: #3B82F6;
+    border-radius:0.5em;
+    height: 10em;
+    width: 75em;
+
+}
+#title1>h1{
+    color: white;
+    font-family: roboto;
+    font-weight:400;
+}
+#title1>p{
+    color: white;
+    font-family: roboto;
+    font-weight: lighter;
+}
+#call{
+    margin-top: 3em;
+    width: 25em;
+    
+}
+#call{
+
+    margin-left: 3em;
+    width:40em;
+    
+}
+#btn1{
+    width: 10em;
+    position: absolute;
+    margin-top: -3em;
+
+}
+#sign_up{
+    margin-left: 50em;
+    border-radius: 8px;
+    width: 140px;
+    height: 40px;
+    border: white 1px solid;
+    color: #F3F7FE;
+    display: inline-block;
+    font-size:17px;
+    background: none;
+    background-color:#3B82F6;
+    cursor: pointer;
+}
 footer>p{
     text-align: center;
     padding-top: 50px;
     font-weight: 100;
     color: #F8F9F9;
     font-family: roboto;
+}
+
+#lover{
+    margin-top: 5em;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+#github_container{
+    cursor: pointer;
+    position:fixed ;
+    margin-left: 97%;
+    margin-top: 45%;
+
+
+}
+#arrow{
+    cursor: pointer;
+    position: fixed;
+    margin-top: 45%;
+    margin-left: 1em;
+}
+
+    scroll-behavior: smooth;
 }
