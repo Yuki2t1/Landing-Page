@@ -1,6 +1,6 @@
 ﻿# Experimental Webpage
 
-This project is a simple experimental webpage built using HTML and CSS. It's designed to showcase basic front-end web development techniques and serve as a fun exploration of web design. No JavaScript or advanced features are included, just pure HTML and CSS for simplicity.
+This project is a simple experimental webpage, built using HTML and CSS. It's designed to showcase basic front-end web development techniques and serve as a fun exploration of web design. No JavaScript or advanced features are included, just pure HTML and CSS for simplicity.
 
 ## Features
 
